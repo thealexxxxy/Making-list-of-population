@@ -15,7 +15,7 @@
 ###### http://www.e-stat.go.jp/api/regist-login/
 
 ```
-appId hogehoge
+ex) appId=hogehoge
 ```
 
 

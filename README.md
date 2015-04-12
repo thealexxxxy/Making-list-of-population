@@ -1,4 +1,4 @@
-### Listing the precise population
+## Making the list of the exact population
 
 国勢調査から得られる人口等基本集計データを
 次世代統計利用システム（API機能）から所得し

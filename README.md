@@ -13,5 +13,5 @@
 ### Runing script
 $ ruby makelist.rb
 
-実行後リスト化された以下のファイルが作成される
+実行後リスト化された以下のファイルが作成される  
 list_of_population.csv

@@ -11,8 +11,8 @@
    kconv  
 
 政府統計データの WebAPI(eStat) を使うため、利用登録を行い、
-アプリケーションIDを所得。
-http://www.e-stat.go.jp/api/regist-login/
+アプリケーションIDを所得。  
+###### http://www.e-stat.go.jp/api/regist-login/
 
 ```
 appId hogehoge

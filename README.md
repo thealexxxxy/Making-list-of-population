@@ -4,11 +4,11 @@
 次世代統計利用システム（API機能）から所得し
 全国の市区町村ごとに、年齢別(5歳区切り)、性別にcsv化
 
-### Requirements
-・ Ruby >= 1.8
-   open-uri
-   rexml/document
-   kconv
+### Requirements  
+・ Ruby >= 1.8  
+   open-uri  
+   rexml/document  
+   kconv  
 
 ### Runing script
-ruby 
+$ ruby  

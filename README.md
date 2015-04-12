@@ -11,7 +11,7 @@
    kconv  
 
 政府統計データの WebAPI(eStat) を使うため、利用登録を行い、
-アプリケーションIDを所得。  
+アプリケーションIDを所得  
 ###### http://www.e-stat.go.jp/api/regist-login/
 
 ```
@@ -19,7 +19,13 @@ ex) appId=hogehoge
 ```
 ###  modified configuration
 
-
+```
+CSV.foreach('2010estat.csv'){|row|
+    num = row[1] 
+    xml = open("http://statdb.nstac.go.jp/api/1.0b/app/getStatsData?appId=hogehoge&cdArea=#{num}&cdCat01=00710&cdCat04=000&cdCat05=000") {|f| f.read}
+    doc = REXML::Document.new(xml)
+```
+所得したアプリケーションIDを記載する
 
 ### Runing script
 $ ruby makelist.rb

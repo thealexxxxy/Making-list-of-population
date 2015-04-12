@@ -11,4 +11,4 @@
    kconv  
 
 ### Runing script
-$ ruby  
+$ ruby makelist.rb

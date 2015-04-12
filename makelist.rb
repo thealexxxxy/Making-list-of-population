@@ -8,7 +8,7 @@ require 'kconv'
 
 CSV.foreach('2010estat.csv'){|row|
     num = row[1] 
-    xml = open("http://statdb.nstac.go.jp/api/1.0b/app/getStatsData?appId=hogehoge&statsDataId=0003038591&cdArea=#{num}&cdCat01=00710&cdCat04=000&cdCat05=000") {|f| f.read}
+    xml = open("http://statdb.nstac.go.jp/api/1.0b/app/getStatsData?appId=XXXXXXXXXX&statsDataId=0003038591&cdArea=#{num}&cdCat01=00710&cdCat04=000&cdCat05=000") {|f| f.read}
     doc = REXML::Document.new(xml)
 
     hash = Hash.new
